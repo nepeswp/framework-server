@@ -1,7 +1,7 @@
 # framework-server
 ## 포트번호 설정
 vi .env
-HOST_PRT={개인 할당 포트번호 입력} (ppt참조)
+HOST_PORT=[개인 할당 포트번호 입력] (ppt참조)
 
 ## 서버 이미지 빌드
 docker compose build
