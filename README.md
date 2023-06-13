@@ -14,6 +14,7 @@ docker compose down
 
 ## 기존 서버 상태로 컨테이너 재생성
 ### 이미지 교체
+docker compose down <br>
 docker compose build <br>
 docker compose up
 ### 컨테이너만 교체
