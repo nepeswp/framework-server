@@ -1,4 +1,4 @@
-FROM deepo:server
+FROM nepes:server
 ARG UID
 ARG GID
 RUN useradd -s /bin/bash -G sudo -u $UID -m user && \
